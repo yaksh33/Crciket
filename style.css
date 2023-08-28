@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background: #4169e1;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    color: whitesmoke;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #FFE5B4;
+}
+
+header ::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+.Icc {
+    float: left;
+    width: 100px;
+    border-radius: 50px;
+    float: left;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+nav {
+    float: right;
+}
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+}
+
+nav a {
+    color: #444;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px ;
+}
+
+nav a:hover {
+    color: #000;
+  }
+
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+  }
+  
+  nav a:hover::before {
+    width: 100%;
+  }
+
+  .instagram-link {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+  }
+  
+  .instagram-link img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+
+  
